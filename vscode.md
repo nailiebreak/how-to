@@ -48,3 +48,76 @@
 ## Run Selected Text
 
 - select text in an editor and run the command **_Terminal: Run Selected Text in Active Terminal_** via the **Command Palette**.
+
+# **Current Visual Studio Code Settings**
+
+```json
+{
+  // Text Editor
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line-thin",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "'Cascadia Code', 'Fira Code', 'DejaVu Sans Mono', Consolas",
+  "editor.fontSize": 20,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.scrollBeyondLastLine": false,
+  "editor.tabSize": 2,
+  "files.enableTrash": false,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  // Workbench
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#FF7042",
+    "activityBar.activeBorder": "#FF7042",
+    "list.activeSelectionForeground": "#FF7042",
+    "list.inactiveSelectionForeground": "#FF7042",
+    "list.highlightForeground": "#FF7042",
+    "scrollbarSlider.activeBackground": "#FF704250",
+    "editorSuggestWidget.highlightForeground": "#FF7042",
+    "textLink.foreground": "#FF7042",
+    "progressBar.background": "#FF7042",
+    "pickerGroup.foreground": "#FF7042",
+    "tab.activeBorder": "#FF7042",
+    "notificationLink.foreground": "#FF7042",
+    "editorWidget.resizeBorder": "#FF7042",
+    "editorWidget.border": "#FF7042",
+    "settings.modifiedItemIndicator": "#FF7042",
+    "settings.headerForeground": "#FF7042",
+    "panelTitle.activeBorder": "#FF7042",
+    "breadcrumb.activeSelectionForeground": "#FF7042",
+    "menu.selectionForeground": "#FF7042",
+    "menubar.selectionForeground": "#FF7042",
+    "editor.findMatchBorder": "#FF7042",
+    "selection.background": "#FF704240"
+  },
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "none",
+  "breadcrumbs.enabled": false,
+  // Window
+  "window.zoomLevel": 0,
+  // Features
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.sortOrder": "type",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "'Cascadia Code'",
+  "terminal.integrated.fontSize": 18,
+  // Extensions
+  "git.enableSmartCommit": true,
+  "git.autoRepositoryDetection": false,
+  "materialTheme.accent": "Orange",
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.semicolons": "remove",
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.semicolons": "remove",
+  "typescript.preferences.quoteStyle": "single"
+}
+```
