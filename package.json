@@ -1,0 +1,10 @@
+{
+  "name": "howto",
+  "version": "1.0.0",
+  "description": "A collection of questions and answers.",
+  "repository": "https://github.com/nailiebreak/howto.git",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
