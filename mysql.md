@@ -10,13 +10,13 @@
 
 ## _Q3. Create a database with given charset_
 
-`CREATE DATABASE mydatabase CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;`
+`CREATE DATABASE mydatabase CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;`
 
 ## [_Q4. Create a user_](https://dev.mysql.com/doc/refman/8.0/en/grant.html#grant-overview)
 
-`CREATE USER 'user'@'localhost'`
+`CREATE USER 'user'@'localhost' IDENTIFIED BY 'password'`
 
-`GRANT ALL ON * TO 'user'@'localhost'`
+`GRANT ALL ON *.* TO 'user'@'localhost'`
 
 # Errors
 
