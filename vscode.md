@@ -53,78 +53,49 @@
 
 ```json
 {
-  // Text Editor
-  "editor.copyWithSyntaxHighlighting": false,
-  "editor.cursorBlinking": "expand",
-  "editor.cursorStyle": "line-thin",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.detectIndentation": false,
-  "editor.fontFamily": "'Cascadia Code', 'Fira Code', 'DejaVu Sans Mono', Consolas",
-  "editor.fontSize": 20,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.minimap.enabled": false,
-  "editor.scrollBeyondLastLine": false,
-  "editor.tabSize": 2,
-  "files.enableTrash": false,
-  "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true,
-  // Workbench
-  "workbench.colorCustomizations": {
-    "activityBarBadge.background": "#FF7042",
-    "activityBar.activeBorder": "#FF7042",
-    "list.activeSelectionForeground": "#FF7042",
-    "list.inactiveSelectionForeground": "#FF7042",
-    "list.highlightForeground": "#FF7042",
-    "scrollbarSlider.activeBackground": "#FF704250",
-    "editorSuggestWidget.highlightForeground": "#FF7042",
-    "textLink.foreground": "#FF7042",
-    "progressBar.background": "#FF7042",
-    "pickerGroup.foreground": "#FF7042",
-    "tab.activeBorder": "#FF7042",
-    "notificationLink.foreground": "#FF7042",
-    "editorWidget.resizeBorder": "#FF7042",
-    "editorWidget.border": "#FF7042",
-    "settings.modifiedItemIndicator": "#FF7042",
-    "settings.headerForeground": "#FF7042",
-    "panelTitle.activeBorder": "#FF7042",
-    "breadcrumb.activeSelectionForeground": "#FF7042",
-    "menu.selectionForeground": "#FF7042",
-    "menubar.selectionForeground": "#FF7042",
-    "editor.findMatchBorder": "#FF7042",
-    "selection.background": "#FF704240"
-  },
-  "workbench.colorTheme": "Material Theme Palenight High Contrast",
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.startupEditor": "none",
-  "breadcrumbs.enabled": false,
-  // Window
-  "window.zoomLevel": 0,
-  // Features
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.sortOrder": "type",
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.fontFamily": "'Cascadia Code'",
-  "terminal.integrated.fontSize": 18,
-  // Extensions
-  "git.enableSmartCommit": true,
-  "git.autoRepositoryDetection": false,
+  // extensions
+  "git.openRepositoryInParentFolders": "never",
   "javascript.format.insertSpaceAfterConstructor": true,
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
   "javascript.format.semicolons": "remove",
   "javascript.preferences.quoteStyle": "single",
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "materialTheme.accent": "Orange",
-  "prettier.disableLanguages": ["vue"],
-  "prettier.htmlWhitespaceSensitivity": "ignore",
-  "prettier.jsxBracketSameLine": true,
-  "prettier.jsxSingleQuote": true,
-  "prettier.packageManager": "yarn",
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
   "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
   "typescript.format.semicolons": "remove",
-  "typescript.preferences.quoteStyle": "single"
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.arrowParens": "avoid",
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "prettier.jsxSingleQuote": true,
+  "prettier.printWidth": 120,
+  "prettier.semi": false,
+  "http.proxy": "http://127.0.0.1:10800",
+  "update.enableWindowsBackgroundUpdates": false,
+
+  // text editor
+  "diffEditor.diffAlgorithm": "advanced",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.codeLensFontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 24,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+
+  // workbench
+  "breadcrumbs.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "material-icon-theme",
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
 ```
